@@ -1,1 +1,1 @@
-# (View Preview)[https://etarbiyat.com/cdn/twg/]
+# [View Live](https://etarbiyat.com/cdn/twg/)
