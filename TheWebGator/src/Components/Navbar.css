@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.navbar-brand {
+    position: absolute;
+    left: 100px;
+    color: white;
+}
+
+#mainNav {
+    background-color: black;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 auto;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.navbar-nav .nav-link:hover {
+    color: #3BAF4A;
+}
+
+@media (max-width: 992px) {
+    .navbar-brand {
+        position: static;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.btn {
+    position: absolute;
+    right: 100px;
+    color: white;
+    font-family: 'Poppins';
+}
