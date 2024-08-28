@@ -33,9 +33,19 @@
     }
 }
 
-.btn {
+.navbar-quote-button {
     position: absolute;
     right: 100px;
     color: white;
     font-family: 'Poppins';
+}
+
+.logoBrackets {
+    font-size: 30px;
+    color: #3BAF4A;
+}
+
+.logoSlash {
+    font-size: 30px;
+    color: white;
 }

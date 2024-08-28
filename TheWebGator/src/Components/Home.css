@@ -4,4 +4,33 @@
     background-position: center;
     height: calc(100vh);
     padding-top: 70px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .row {
+    width: 100%;
+}
+
+#subLine {
+    color: aliceblue;
+    font-size: 1.25rem;
+    font-family: 'Poppins';
+    margin: -280px 0 0 5%;
+    color: #B8B8B8;
+}
+
+#mainTagline {
+    color: white;
+    font-size: 3.125rem;
+    font-family: 'Poppins';
+    margin: -15rem 0 0 5%;
+}
+
+.home-quote-button {
+    margin-left: 5%;
+    margin-top: -9rem;
 }
