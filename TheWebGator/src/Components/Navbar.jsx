@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css'; // Import custom CSS
 import QuoteButton from './QuoteButton';
 
+const navItems = ['Home', 'Services', 'Our Process', 'About', 'Contact Us'];
+
 export default function Navbar() {
     return (
         <nav id='mainNav' className="navbar navbar-expand-lg navbar-dark">
@@ -16,21 +18,11 @@ export default function Navbar() {
             </button>
             <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul className="navbar-nav">
-                    <li className="nav-item mx-3">
-                        <a className="nav-link" href="#">Home</a>
-                    </li>
-                    <li className="nav-item mx-3">
-                        <a className="nav-link" href="#">Services</a>
-                    </li>
-                    <li className="nav-item mx-3">
-                        <a className="nav-link" href="#">Our Process</a>
-                    </li>
-                    <li className="nav-item mx-3">
-                        <a className="nav-link" href="#">About</a>
-                    </li>
-                    <li className="nav-item mx-3">
-                        <a className="nav-link" href="#">Contact Us</a>
-                    </li>
+                    {navItems.map((item) => {
+                        return <li className="nav-item mx-3">
+                            <a className='nav-link' href='#'>{item}</a>
+                        </li>
+                    })}
                 </ul>
             </div>
             <QuoteButton />
