@@ -15,55 +15,59 @@
     width: 100%;
 }
 
-#subLine {
-    color: aliceblue;
-    font-size: 1.25rem;
+.col-sm {
+    margin-left: 5%;
     font-family: 'Poppins';
+    white-space: nowrap;
+}
+
+#subLine {
+    font-size: 1.25rem;
     margin: -280px 0 0 5%;
     color: #B8B8B8;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 #mainTagline {
     color: white;
-    font-size: 3.125rem;
-    font-family: 'Poppins';
-    margin: -15rem 0 0 5%;
+    font-size: 4.125rem;
+    margin-top: -15rem;
     min-width: 300px;
-    white-space: nowrap;
-    overflow: hidden;
+}
+
+.highlightedWord {
+    color: #3BAF4A;
 }
 
 .home-quote-button {
-    margin-left: 5%;
-    margin-top: -9rem;
+    margin-top: -3rem;
     color: white;
-    font-family: 'Poppins';
+    font-size: 1.34rem;
 }
+
+#aboutUs1 {
+    color: #B8B8B8;
+
+}
+
 
 @media (max-width: 992px) {
     #subLine {
         font-size: 1rem;
         margin: 0 0 1rem 2%;
-        white-space: wrap;
-        align-items: center;
+        display: flex;
         justify-content: center;
     }
 
     #mainTagline {
         font-size: 2rem;
         margin: 0 0 1rem 2%;
-        white-space: wrap;
+        display: flex;
+        justify-content: center;
     }
 
     .home-quote-button {
         margin-left: 2%;
         margin-top: 1rem;
-    }
-
-    .logoBrackets {
-        font-size: 1.5rem;
     }
 }
 
@@ -82,10 +86,6 @@
         margin-left: 2%;
         margin-top: 1rem;
     }
-
-    .logoBrackets {
-        font-size: 1.5rem;
-    }
 }
 
 @media (max-width: 576px) {
@@ -102,9 +102,5 @@
     .home-quote-button {
         margin-left: 1%;
         margin-top: 1rem;
-    }
-
-    .logoBrackets {
-        font-size: 1.25rem;
     }
 }
