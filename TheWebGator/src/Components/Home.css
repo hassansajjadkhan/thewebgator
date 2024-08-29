@@ -21,16 +21,18 @@
     white-space: nowrap;
 }
 
+#heading {
+    margin-top: -3rem;
+}
+
 #subLine {
     font-size: 1.25rem;
-    margin: -280px 0 0 5%;
     color: #B8B8B8;
 }
 
 #mainTagline {
     color: white;
-    font-size: 4.125rem;
-    margin-top: -15rem;
+    font-size: 3.725rem;
     min-width: 300px;
 }
 
@@ -39,14 +41,16 @@
 }
 
 .home-quote-button {
-    margin-top: -3rem;
     color: white;
     font-size: 1.34rem;
 }
 
+#aboutUsSection {
+    margin-top: 10rem;
+}
+
 #aboutUs1 {
     color: #B8B8B8;
-
 }
 
 
