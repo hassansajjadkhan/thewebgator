@@ -1,14 +1,32 @@
 .home {
-    background-image: url('../assets/home.png');
-    background-size: cover;
-    background-position: center;
     height: calc(100vh);
-    padding-top: 70px;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: auto;
+}
+
+.section {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 {
+    background-image: url('../assets/home.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#section2 {
+    background-color: #121212;
+    ;
 }
 
 .home .row {
@@ -21,9 +39,6 @@
     white-space: nowrap;
 }
 
-#heading {
-    margin-top: -3rem;
-}
 
 #subLine {
     font-size: 1.25rem;
