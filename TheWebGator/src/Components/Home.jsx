@@ -52,10 +52,10 @@ export default function Home() {
                         </div>
                     </div>
                     <div className='row row-cols-2 ms-5'>
-                        <div className='col'>Service name</div>
-                        <div className='col'>Service</div>
-                        <div className='col'>Service name</div>
-                        <div className='col'>Service</div>
+                        <div className='col'><div>Service Name</div>Service</div>
+                        <div className='col'><div>Service Name</div>Service</div>
+                        <div className='col'><div>Service Name</div>Service</div>
+                        <div className='col'><div>Service Name</div>Service</div>
                     </div>
                 </section>
             </main>
