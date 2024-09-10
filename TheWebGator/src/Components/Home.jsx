@@ -51,11 +51,23 @@ export default function Home() {
                             We're good at
                         </div>
                     </div>
-                    <div className='row row-cols-2 ms-5'>
-                        <div className='col'><div>Service Name</div>Service</div>
-                        <div className='col'><div>Service Name</div>Service</div>
-                        <div className='col'><div>Service Name</div>Service</div>
-                        <div className='col'><div>Service Name</div>Service</div>
+                    <div className='row row-cols-1 row-cols-md-2' id='service-row'>
+                        <div className='col-mb-4' id='service'>
+                            <div id='service-titles'>Design</div>
+                            <span id='service-desc'>We craft digital experiences that captivate and convert. Our expert designers transform your vision into stunning, user-friendly websites.</span>
+                        </div>
+                        <div className='col-mb-4' id='service'>
+                            <div id='service-titles'>Development</div>
+                            <span id='service-desc'>From websites and online stores to robust web portals and feature-rich mobile apps, we build digital solutions that drive results.</span>
+                        </div>
+                        <div className='col-mb-4' id='service'>
+                            <div id='service-titles'>Software Development</div>
+                            <span id='service-desc'>We craft robust software solutions tailored to your unique needs. From concept to deployment, our expert team delivers exceptional software products.</span>
+                        </div>
+                        <div className='col-mb-4' id='service'>
+                            <div id='service-titles'>Cloud</div>
+                            <span id='service-desc'>Harness the power of the cloud with our expert solutions. We deliver scalable and secure cloud services tailored to your business needs.</span>
+                        </div>
                     </div>
                 </section>
             </main>
