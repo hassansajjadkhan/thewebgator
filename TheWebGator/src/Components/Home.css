@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: auto;
+    font-family: 'Poppins';
 }
 
 .section {
@@ -32,13 +33,17 @@ body {
     background-color: #121212;
 }
 
+#section3 {
+    background-color: #121212;
+    justify-content: flex-start;
+}
+
 .home .row {
     width: 100%;
 }
 
 .col-sm {
     margin-left: 5%;
-    font-family: 'Poppins';
     white-space: nowrap;
 }
 
@@ -73,8 +78,9 @@ body {
 
 
 #service-row {
-    margin: 4% 0 0 9%;
+    margin: 4% 0 4% 9%;
 }
+
 
 #service {
     margin-bottom: 4%;
@@ -84,17 +90,13 @@ body {
 
 #service-titles {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 #service-desc {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #B8B8B8;
-
 }
-
-
-
 
 @media (max-width: 992px) {
     #subLine {

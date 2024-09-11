@@ -2,12 +2,14 @@ import React from 'react'
 import Navbar from './Navbar'
 import QuoteButton from './QuoteButton'
 import './Home.css'
+import Proj1 from '../assets/projImg1.png'
+import Proj2 from '../assets/projImg2.png'
 
 export default function Home() {
     return (
         <div>
             <Navbar />
-            <main className='home container-fluid'>
+            <main className='home'>
                 <section className='section' id='section1'>
                     <div className='row' id='heading'>
                         <div className='row'>
@@ -47,7 +49,7 @@ export default function Home() {
                 </section>
                 <section className='section' id='section2'>
                     <div className='row'>
-                        <div className='col-sm text-white h3'>
+                        <div className='col-sm text-white h1'>
                             We're good at
                         </div>
                     </div>
@@ -69,7 +71,32 @@ export default function Home() {
                             <span id='service-desc'>Harness the power of the cloud with our expert solutions. We deliver scalable and secure cloud services tailored to your business needs.</span>
                         </div>
                     </div>
+                    <div className='row'>
+                        <div className='col-sm col-sm-12 text-white h3'>
+                            Our Work in Action
+                        </div>
+                        <div className='col-sm col-sm-12' id='service-desc'>
+                            Projects
+                        </div>
+                    </div>
                 </section>
+                <section className='section' id='section3'>
+                    <div className='row justify-content-center align-items-stretch text-center d-flex' id='projects-row'>
+                        <div className='col-md-5 d-flex flex-column' id='project-col'>
+                            <img src={Proj1} alt='placeholder' className='img-fluid' id='proj-img' style={{ padding: '10px', maxWidth: '100%', height: 'auto' }} />
+                            <h3 className='text-white mt-3'>Megapetrol</h3>
+                            <div style={{ color: '#B8B8B8' }}>Visual identity, UX/UI design and development for the oil trading company from Switzerland</div>
+                        </div>
+                        <div className='col-md-5 d-flex flex-column' id='project-col'>
+                            <img src={Proj2} alt='placeholder' className='img-fluid' id='proj-img' style={{ padding: '10px', maxWidth: '100%', height: 'auto' }} />
+                            <h3 className='text-white mt-3'>Armen Nayen</h3>
+                            <div style={{ color: '#B8B8B8' }}>Branding, UX/UI design and development for a doctor</div>
+                        </div>
+                    </div>
+                    <div className='text-white text-decoration-underline mt-5 h4'>View All Projects</div>
+                </section>
+
+
             </main>
         </div>
     )
