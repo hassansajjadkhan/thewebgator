@@ -95,8 +95,11 @@ export default function Home() {
                     </div>
                     <div className='text-white text-decoration-underline mt-5 h4'>View All Projects</div>
                 </section>
-
-
+                <section className='section' id='section4'>
+                    <div className='row'>
+                        <div className='col-sm col-12 text-white h1'>Trusted by Industry Leaders</div>
+                    </div>
+                </section>
             </main>
         </div>
     )
