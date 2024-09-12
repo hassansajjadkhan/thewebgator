@@ -9,8 +9,8 @@ export default function Home() {
     return (
         <div>
             <Navbar />
-            <main className='home'>
-                <section className='section' id='section1'>
+            <main className='home container'>
+                <section className='section mt-5' id='section1'>
                     <div className='row' id='heading'>
                         <div className='row'>
                             <div className='col-sm' id='subLine'>
@@ -98,6 +98,31 @@ export default function Home() {
                 <section className='section' id='section4'>
                     <div className='row'>
                         <div className='col-sm col-12 text-white h1'>Trusted by Industry Leaders</div>
+                    </div>
+                    <div className='row'>
+                        <div className='col-sm-4 col-md-4 col-lg-4 text-white mt-5' id='industry-left'>
+                            “WebGator has stood out for their promptness and responsiveness.
+                            The client is extremely satisfied with their performance and technical
+                            skills. All in all, they're a reliable and committed partner.”
+                        </div>
+                        <div className='col-sm-7 col-md-7 col-lg-7 text-white mt-5 ms-3' id='industry-right'>
+                            “Responsive and committed, WebGator provides quality work in a timely manner.
+                            They efficiently provide the client's in-house team with software development
+                            outsourcing services. They also ensure that the developers they provide meet
+                            the client's needs, leading to an ongoing partnership.”
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className='col-sm-5 col-md-5 col-lg-5 text-white mt-3' id='industry-bottomleft'>
+                            “WebGator helped us hit the ground running on our MVP development, and helped
+                            us build out a number of important integrations across payments, authentication
+                            and blockchain integrations. I would highly recommend them.”
+                        </div>
+                        <div className='col-sm-6 col-md-6 col-lg-6 text-white mt-3 ms-3' id='industry-bottomright'>
+                            “It is an absolute honor to work with such hard working and dedicated folks.
+                            The effort that you give every month is a lot but you really surpassed it to
+                            achieve this new record.”
+                        </div>
                     </div>
                 </section>
             </main>
