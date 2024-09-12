@@ -109,8 +109,6 @@ body {
     border-right: solid 2px #363636;
     border-bottom: solid 2px #363636;
     border-radius: 10px;
-    padding-bottom: 100px;
-    padding-top: 20px;
 }
 
 #industry-bottomleft {
@@ -119,8 +117,6 @@ body {
     border-right: solid 2px #363636;
     border-top: solid 2px #363636;
     border-radius: 10px;
-    padding-bottom: 100px;
-    padding-top: 20px;
 }
 
 #industry-right {
@@ -129,8 +125,6 @@ body {
     border-left: solid 2px #363636;
     border-bottom: solid 2px #363636;
     border-radius: 10px;
-    padding-bottom: 100px;
-    padding-top: 20px;
 }
 
 #industry-bottomright {
@@ -139,8 +133,15 @@ body {
     border-left: solid 2px #363636;
     border-top: solid 2px #363636;
     border-radius: 10px;
+}
+
+#industry-text {
     padding-bottom: 100px;
     padding-top: 20px;
+}
+
+#industry-ceo {
+    padding-bottom: 20px;
 }
 
 @media (max-width: 992px) {

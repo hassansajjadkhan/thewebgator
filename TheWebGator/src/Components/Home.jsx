@@ -101,29 +101,53 @@ export default function Home() {
                     </div>
                     <div className='row'>
                         <div className='col-sm-4 col-md-4 col-lg-4 text-white mt-5' id='industry-left'>
-                            “WebGator has stood out for their promptness and responsiveness.
-                            The client is extremely satisfied with their performance and technical
-                            skills. All in all, they're a reliable and committed partner.”
+                            <div id='industry-text'>
+                                “WebGator has stood out for their promptness and responsiveness.
+                                The client is extremely satisfied with their performance and technical
+                                skills. All in all, they're a reliable and committed partner.”
+                            </div>
+                            <div id='industry-ceo'>
+                                Parham Akhavan, <br />President, KUDO
+                            </div>
                         </div>
                         <div className='col-sm-7 col-md-7 col-lg-7 text-white mt-5 ms-3' id='industry-right'>
-                            “Responsive and committed, WebGator provides quality work in a timely manner.
-                            They efficiently provide the client's in-house team with software development
-                            outsourcing services. They also ensure that the developers they provide meet
-                            the client's needs, leading to an ongoing partnership.”
+                            <div id='industry-text'>
+                                “Responsive and committed, WebGator provides quality work in a timely manner.
+                                They efficiently provide the client's in-house team with software development
+                                outsourcing services. They also ensure that the developers they provide meet
+                                the client's needs, leading to an ongoing partnership.”
+                            </div>
+                            <div id='industry-ceo'>
+                                Eric Hurst,<br />Co-Founder, Intellirent
+                            </div>
                         </div>
                     </div>
                     <div className='row'>
                         <div className='col-sm-5 col-md-5 col-lg-5 text-white mt-3' id='industry-bottomleft'>
-                            “WebGator helped us hit the ground running on our MVP development, and helped
-                            us build out a number of important integrations across payments, authentication
-                            and blockchain integrations. I would highly recommend them.”
+                            <div id='industry-text'>
+                                “WebGator helped us hit the ground running on our MVP development, and helped
+                                us build out a number of important integrations across payments, authentication
+                                and blockchain integrations. I would highly recommend them.”
+                            </div>
+                            <div id='industry-ceo'>
+                                Ramesh Doddi,<br />
+                                CTO, HoneyBricks
+                            </div>
                         </div>
                         <div className='col-sm-6 col-md-6 col-lg-6 text-white mt-3 ms-3' id='industry-bottomright'>
-                            “It is an absolute honor to work with such hard working and dedicated folks.
-                            The effort that you give every month is a lot but you really surpassed it to
-                            achieve this new record.”
+                            <div id='industry-text'>
+                                “It is an absolute honor to work with such hard working and dedicated folks.
+                                The effort that you give every month is a lot but you really surpassed it to
+                                achieve this new record.”
+                            </div>
+                            <div id='industry-ceo'>
+                                Nimesh Shah,<br />CEO, Orbrick
+                            </div>
                         </div>
                     </div>
+                </section>
+                <section className='section' id='section2'>
+
                 </section>
             </main>
         </div>
