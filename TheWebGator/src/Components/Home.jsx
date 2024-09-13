@@ -149,6 +149,9 @@ export default function Home() {
                 <section className='section' id='section2'>
 
                 </section>
+                <section className='section'>
+
+                </section>
             </main>
         </div>
     )
