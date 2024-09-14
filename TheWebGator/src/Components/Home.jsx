@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Footer from './Footer'
 import QuoteButton from './QuoteButton'
 import './Home.css'
 import Proj1 from '../assets/projImg1.png'
@@ -146,11 +147,18 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <section className='section' id='section2'>
-
-                </section>
-                <section className='section'>
-
+                <section className='section' id='section5'>
+                    <div className='row'>
+                        <div className='col-4 text-white h1' id='desc'>
+                            We love crafting unforgettable digital experiences, brands and websites with people like you.
+                        </div>
+                        <div className='col-6 text-white h1' id='start-quote'>
+                            <div>Let’s get started</div>
+                            <div style={{ color: '#B8B8B8' }}>We'd love to hear about your project</div>
+                            <QuoteButton className={'home-quote-button'} />
+                        </div>
+                    </div>
+                    <Footer />
                 </section>
             </main>
         </div>

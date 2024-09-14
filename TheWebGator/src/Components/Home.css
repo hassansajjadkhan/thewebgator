@@ -34,7 +34,8 @@ body {
     background-color: #121212;
 }
 
-#section3 {
+#section3,
+#section5 {
     background-color: #121212;
     justify-content: flex-start;
 }
@@ -142,6 +143,16 @@ body {
 
 #industry-ceo {
     padding-bottom: 20px;
+}
+
+#desc {
+    margin-left: 5%;
+}
+
+#start-quote {
+    margin-left: 11%;
+    margin-top: 10%;
+    color: crimson;
 }
 
 @media (max-width: 992px) {
