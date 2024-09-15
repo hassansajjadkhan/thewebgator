@@ -158,7 +158,7 @@ export default function Home() {
                             <QuoteButton className={'home-quote-button'} />
                         </div>
                     </div>
-                    <div style={{ marginTop: '195px' }}><Footer /></div>
+                    <div style={{ marginTop: '100px' }}><Footer /></div>
                 </section>
             </main>
         </div>

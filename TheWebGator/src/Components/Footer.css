@@ -1,14 +1,38 @@
-.footer {
-    background-color: #343a40;
-    color: white;
-    padding: 20px 0;
+footer {
+    width: 100vw;
+    background-color: black;
 }
 
-.footer a {
-    color: white;
-    text-decoration: none;
+.footer-logo {
+    max-width: 30%;
 }
 
-.footer a:hover {
-    text-decoration: underline;
+.footer-links {
+    max-width: 70%;
+}
+
+.footer-column {
+    margin-bottom: 20px;
+}
+
+.twitter:hover .bi-twitter,
+.twitter:hover,
+.bi-twitter:hover {
+    color: rgb(11, 150, 201);
+}
+
+.facebook:hover .bi-facebook,
+.facebook:hover,
+.bi-facebook:hover {
+    color: #0e62ff;
+}
+
+.instagram:hover .bi-instagram,
+.instagram:hover,
+.bi-instagram:hover {
+    color: #e1306c;
+}
+
+#logo-section {
+    margin-right: 200px;
 }
