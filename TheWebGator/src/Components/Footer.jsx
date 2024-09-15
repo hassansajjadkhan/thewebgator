@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className="col-md-4 mb-3" id='logo-section'>
                         <img src={logo} alt="Logo" className='mb-3' height={'80px'} />
                         <p>One Stop Shop for your Brand</p>
-                        <p className="text-muted">&copy; 2021 Company &nbsp; <a className='text-muted text-decoration-none' href="#!">Terms</a> &nbsp; <a className='text-muted text-decoration-none' href="#!">Privacy</a></p>
+                        <p>&copy; 2021 Company &nbsp; <a className=' text-decoration-none' href="#!">Terms</a> &nbsp; <a className=' text-decoration-none' href="#!">Privacy</a></p>
                     </div>
 
                     <div className="col-md-2 mb-3">
