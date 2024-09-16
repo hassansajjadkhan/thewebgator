@@ -1,0 +1,26 @@
+#services-section1 {
+    background-image: url('../assets/services.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#services-section2 {
+    background-color: #121212;
+}
+
+#service-heading {
+    margin-left: 5%;
+    font-size: 70px;
+}
+
+#service-quote-button {
+    margin-left: 5%;
+}
+
+#approach {
+    margin-left: 5%;
+}
+
+#approach-heading {
+    margin-top: 7%;
+}
