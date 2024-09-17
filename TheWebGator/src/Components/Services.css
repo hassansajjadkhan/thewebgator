@@ -18,7 +18,7 @@
 }
 
 #approach {
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 #approach-heading {
@@ -26,9 +26,35 @@
 }
 
 #service-cards {
-    margin-left: 5%;
+    margin-left: 10%;
+}
+
+.service-number {
+    width: 35px;
+    height: 35px;
+    background-color: #3BAF4A;
+    /* Green background similar to the image */
+    color: black;
+    /* Text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+
+#service-card {
     background-color: #191919;
-    height: 500px;
-    width: 400px;
+    height: 360px;
+    width: 500px;
     border-radius: 5%;
+    padding: 20px;
+}
+
+#service-description {
+    margin-top: 22%;
+    width: 80%;
 }

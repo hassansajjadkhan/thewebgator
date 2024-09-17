@@ -8,7 +8,7 @@ export default function Services() {
     return (
         <div>
             <Navbar />
-            <main className='home container-fluid'>
+            <main className='home container'>
                 <section className='section' id='services-section1'>
                     <div className='row'>
                         <div className='col-6 d-flex flex-column justify-content-center text-white'>
@@ -33,28 +33,52 @@ export default function Services() {
                             Fusing imagination with practicality
                         </div>
                     </div>
-                    <div className='row'>
-                        <div className='col-5 mt-3' id='service-cards'>
-                            <h1>
-
-                            </h1>
+                    <div className='row mt-5' id='service-cards'>
+                        <div className='col-5  me-4' id='service-card'>
+                            <div className="service-number mb-2">
+                                <span>1</span>
+                            </div>
+                            <h4 className='text-white' id='service-title'>
+                                Discovery and Planning
+                            </h4>
+                            <p style={{ color: '#b8b8b8' }} id='service-description'>
+                                We begin by immersing ourselves in your business.
+                                This involves understanding your goals, target audience,
+                                brand identity, and competitors. Through in-depth
+                                discussions and research, we develop a clear project
+                                scope and outline the project's objectives.
+                            </p>
                         </div>
-                        <div className='col-4 mt-3' id='service-cards'>
-                            <h1>
-
-                            </h1>
+                        <div className='col-4  me-4' id='service-card'>
+                            <div className="service-number mb-2">
+                                <span>2</span>
+                            </div>
+                            <h4 className='text-white' id='service-title'>
+                                Information Architecture
+                            </h4>
+                            <p style={{ color: '#b8b8b8' }} id='service-description'>
+                                With a solid understanding of your business,
+                                we structure the website's content and navigation.
+                                This stage involves creating sitemaps and wireframes
+                                to define the information hierarchy, user flow, and
+                                overall website structure.
+                            </p>
                         </div>
-                        <div className='col-4 mt-3' id='service-cards'>
-                            <h1>
-
-                            </h1>
+                        <div className='col-4  me-4' id='service-card'>
+                            <div className="service-number mb-2">
+                                <span>3</span>
+                            </div>
+                            <h4 className='text-white' id='service-title'>
+                                Visual Design
+                            </h4>
+                            <p style={{ color: '#b8b8b8' }} id='service-description'>
+                                Our talented designers bring your brand to life
+                                through captivating visuals. We create mood boards,
+                                color palettes, and typography styles that align
+                                with your brand identity. We then develop design
+                                concepts and present them for your feedback.
+                            </p>
                         </div>
-                        <div className='col-4 mt-3' id='service-cards'>
-                            <h1>
-
-                            </h1>
-                        </div>
-
                     </div>
                 </section>
             </main>
