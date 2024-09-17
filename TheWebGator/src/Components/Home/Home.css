@@ -34,6 +34,11 @@ body {
     background-color: #121212;
 }
 
+#section3 {
+    width: 100vw;
+    height: 90vh;
+}
+
 #section3,
 #section5 {
     background-color: #121212;
@@ -42,7 +47,7 @@ body {
 
 #section5 {
     width: 100vw;
-    height: 81vh;
+    height: 40vh;
 }
 
 #section4 {

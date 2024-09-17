@@ -15,12 +15,10 @@
 
 #services-section2 {
     background-color: #121212;
-    margin-bottom: 0;
 }
 
 #services-section3 {
     background-color: #121212;
-    margin-top: 0;
 }
 
 #service-heading {
@@ -70,4 +68,20 @@
 #service-description {
     margin-top: 22%;
     width: 80%;
+}
+
+#contact-info {
+    margin-top: 15%;
+    margin-left: 400px;
+}
+
+#discovery-button {
+    color: black;
+    background-color: #3BAF4A;
+    border-radius: 5px;
+}
+
+#contact-button {
+    color: white;
+    border-color: #3BAF4A;
 }
