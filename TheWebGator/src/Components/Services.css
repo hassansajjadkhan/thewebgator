@@ -1,3 +1,12 @@
+.service-section {
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #services-section1 {
     background-image: url('../assets/services.png');
     background-size: cover;
@@ -6,6 +15,12 @@
 
 #services-section2 {
     background-color: #121212;
+    margin-bottom: 0;
+}
+
+#services-section3 {
+    background-color: #121212;
+    margin-top: 0;
 }
 
 #service-heading {
@@ -22,7 +37,7 @@
 }
 
 #approach-heading {
-    margin-top: 7%;
+    margin-top: 3%;
 }
 
 #service-cards {
@@ -33,9 +48,7 @@
     width: 35px;
     height: 35px;
     background-color: #3BAF4A;
-    /* Green background similar to the image */
     color: black;
-    /* Text color */
     display: flex;
     justify-content: center;
     align-items: center;

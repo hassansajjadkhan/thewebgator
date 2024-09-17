@@ -24,7 +24,7 @@ export default function Services() {
                         </div>
                     </div>
                 </section>
-                <section className='section justify-content-start' id='services-section2'>
+                <section className='service-section justify-content-start' id='services-section2'>
                     <div className='row' id='approach'>
                         <div className='col-12 text-white h1' id='approach-heading'>
                             Our Approach to Web Design
@@ -77,6 +77,51 @@ export default function Services() {
                                 color palettes, and typography styles that align
                                 with your brand identity. We then develop design
                                 concepts and present them for your feedback.
+                            </p>
+                        </div>
+                    </div>
+                    <div className='row mt-4' id='service-cards'>
+                        <div className='col-5  me-4' id='service-card'>
+                            <div className="service-number mb-2">
+                                <span>4</span>
+                            </div>
+                            <h4 className='text-white' id='service-title'>
+                                User Experience (UX) Design
+                            </h4>
+                            <p style={{ color: '#b8b8b8' }} id='service-description'>
+                                We begin by immersing ourselves in your business. This
+                                involves understanding your goals, target audience,
+                                brand identity, and competitors. Through in-depth
+                                discussions and research, we develop a clear project
+                                scope and outline the project's objectives.
+                            </p>
+                        </div>
+                        <div className='col-4  me-4' id='service-card'>
+                            <div className="service-number mb-2">
+                                <span>5</span>
+                            </div>
+                            <h4 className='text-white' id='service-title'>
+                                Development
+                            </h4>
+                            <p style={{ color: '#b8b8b8' }} id='service-description'>
+                                Our development team transforms the design into a
+                                fully functional website. We use the latest technologies
+                                to build a robust and responsive platform that delivers a
+                                consistent experience across all devices and provide ongoing support.
+                            </p>
+                        </div>
+                        <div className='col-4  me-4' id='service-card'>
+                            <div className="service-number mb-2">
+                                <span>6</span>
+                            </div>
+                            <h4 className='text-white' id='service-title'>
+                                Testing and Launch
+                            </h4>
+                            <p style={{ color: '#b8b8b8' }} id='service-description'>
+                                Before going live, we conduct rigorous testing to identify
+                                and fix any issues. We optimize the website for speed,
+                                performance, and search engines. Once everything is perfect,
+                                we launch the website and provide ongoing support.
                             </p>
                         </div>
                     </div>
