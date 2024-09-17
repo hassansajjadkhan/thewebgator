@@ -24,3 +24,11 @@
 #approach-heading {
     margin-top: 7%;
 }
+
+#service-cards {
+    margin-left: 5%;
+    background-color: #191919;
+    height: 500px;
+    width: 400px;
+    border-radius: 5%;
+}

@@ -33,6 +33,29 @@ export default function Services() {
                             Fusing imagination with practicality
                         </div>
                     </div>
+                    <div className='row'>
+                        <div className='col-5 mt-3' id='service-cards'>
+                            <h1>
+
+                            </h1>
+                        </div>
+                        <div className='col-4 mt-3' id='service-cards'>
+                            <h1>
+
+                            </h1>
+                        </div>
+                        <div className='col-4 mt-3' id='service-cards'>
+                            <h1>
+
+                            </h1>
+                        </div>
+                        <div className='col-4 mt-3' id='service-cards'>
+                            <h1>
+
+                            </h1>
+                        </div>
+
+                    </div>
                 </section>
             </main>
         </div>
