@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
-import QuoteButton from './QuoteButton'
+import Navbar from '../Boilerplate/Navbar'
+import Footer from '../Boilerplate/Footer'
+import QuoteButton from '../QuoteButton'
 import './Home.css'
-import Proj1 from '../assets/projImg1.png'
-import Proj2 from '../assets/projImg2.png'
+import Proj1 from '../../assets/projImg1.png'
+import Proj2 from '../../assets/projImg2.png'
 
 export default function Home() {
     return (

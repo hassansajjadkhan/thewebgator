@@ -1,6 +1,6 @@
 import React from 'react'
 import ServiceCard from './ServiceCard'
-import services from '../JavaScript/servicesData'
+import services from '../../JavaScript/servicesData'
 
 export default function ServiceSection() {
     return (

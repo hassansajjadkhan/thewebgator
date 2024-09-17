@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from './Navbar'
-import QuoteButton from './QuoteButton'
+import Navbar from '../Boilerplate/Navbar'
+import QuoteButton from '../QuoteButton'
 import ServiceSection from './ServiceSection'
-import webDesign from '../assets/webDesign.png'
-import servicePhone from '../assets/servicePhone.png'
+import webDesign from '../../assets/webDesign.png'
+import servicePhone from '../../assets/servicePhone.png'
 import './Services.css'
 
 export default function Services() {

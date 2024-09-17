@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'; // Import Bootstrap Icons
 import { ReactSocialMediaIcons } from 'react-social-media-icons';
 import './Footer.css';
-import logo from '../assets/logo.png';
+import logo from '../../assets/logo.png';
 
 const Footer = () => {
     return (

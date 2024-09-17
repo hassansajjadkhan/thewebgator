@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css';
-import QuoteButton from './QuoteButton';
+import QuoteButton from '../QuoteButton';
 import { Link } from 'react-router-dom';
 
 const navItems = ['Home', 'Services', 'Our Process', 'About', 'Contact Us'];

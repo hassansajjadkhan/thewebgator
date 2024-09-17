@@ -1,6 +1,6 @@
-import Home from './Components/Home'
-import Services from './Components/Services'
-import './Components/Navbar.css'
+import Home from './Components/Home/Home'
+import Services from './Components/Services/Services'
+import './Components/Boilerplate/Navbar.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
