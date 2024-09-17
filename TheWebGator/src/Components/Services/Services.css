@@ -78,10 +78,25 @@
 #discovery-button {
     color: black;
     background-color: #3BAF4A;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #contact-button {
+    color: black;
+    background-color: #3BAF4A;
+    border-radius: 10px;
+}
+
+#discovery-button:hover {
     color: white;
+    background-color: #121212;
     border-color: #3BAF4A;
+    box-shadow: 0 0 10px #3BAF4A;
+}
+
+#contact-button:hover {
+    color: white;
+    background-color: #121212;
+    border-color: #3BAF4A;
+    box-shadow: 0 0 10px #3BAF4A;
 }
