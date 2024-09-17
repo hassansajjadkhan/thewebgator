@@ -1,7 +1,9 @@
 import React from 'react'
 import Navbar from './Navbar'
 import QuoteButton from './QuoteButton'
+import ServiceSection from './ServiceSection'
 import webDesign from '../assets/webDesign.png'
+import servicePhone from '../assets/servicePhone.png'
 import './Services.css'
 
 export default function Services() {
@@ -33,98 +35,7 @@ export default function Services() {
                             Fusing imagination with practicality
                         </div>
                     </div>
-                    <div className='row mt-5' id='service-cards'>
-                        <div className='col-5  me-4' id='service-card'>
-                            <div className="service-number mb-2">
-                                <span>1</span>
-                            </div>
-                            <h4 className='text-white' id='service-title'>
-                                Discovery and Planning
-                            </h4>
-                            <p style={{ color: '#b8b8b8' }} id='service-description'>
-                                We begin by immersing ourselves in your business.
-                                This involves understanding your goals, target audience,
-                                brand identity, and competitors. Through in-depth
-                                discussions and research, we develop a clear project
-                                scope and outline the project's objectives.
-                            </p>
-                        </div>
-                        <div className='col-4  me-4' id='service-card'>
-                            <div className="service-number mb-2">
-                                <span>2</span>
-                            </div>
-                            <h4 className='text-white' id='service-title'>
-                                Information Architecture
-                            </h4>
-                            <p style={{ color: '#b8b8b8' }} id='service-description'>
-                                With a solid understanding of your business,
-                                we structure the website's content and navigation.
-                                This stage involves creating sitemaps and wireframes
-                                to define the information hierarchy, user flow, and
-                                overall website structure.
-                            </p>
-                        </div>
-                        <div className='col-4  me-4' id='service-card'>
-                            <div className="service-number mb-2">
-                                <span>3</span>
-                            </div>
-                            <h4 className='text-white' id='service-title'>
-                                Visual Design
-                            </h4>
-                            <p style={{ color: '#b8b8b8' }} id='service-description'>
-                                Our talented designers bring your brand to life
-                                through captivating visuals. We create mood boards,
-                                color palettes, and typography styles that align
-                                with your brand identity. We then develop design
-                                concepts and present them for your feedback.
-                            </p>
-                        </div>
-                    </div>
-                    <div className='row mt-4' id='service-cards'>
-                        <div className='col-5  me-4' id='service-card'>
-                            <div className="service-number mb-2">
-                                <span>4</span>
-                            </div>
-                            <h4 className='text-white' id='service-title'>
-                                User Experience (UX) Design
-                            </h4>
-                            <p style={{ color: '#b8b8b8' }} id='service-description'>
-                                We begin by immersing ourselves in your business. This
-                                involves understanding your goals, target audience,
-                                brand identity, and competitors. Through in-depth
-                                discussions and research, we develop a clear project
-                                scope and outline the project's objectives.
-                            </p>
-                        </div>
-                        <div className='col-4  me-4' id='service-card'>
-                            <div className="service-number mb-2">
-                                <span>5</span>
-                            </div>
-                            <h4 className='text-white' id='service-title'>
-                                Development
-                            </h4>
-                            <p style={{ color: '#b8b8b8' }} id='service-description'>
-                                Our development team transforms the design into a
-                                fully functional website. We use the latest technologies
-                                to build a robust and responsive platform that delivers a
-                                consistent experience across all devices and provide ongoing support.
-                            </p>
-                        </div>
-                        <div className='col-4  me-4' id='service-card'>
-                            <div className="service-number mb-2">
-                                <span>6</span>
-                            </div>
-                            <h4 className='text-white' id='service-title'>
-                                Testing and Launch
-                            </h4>
-                            <p style={{ color: '#b8b8b8' }} id='service-description'>
-                                Before going live, we conduct rigorous testing to identify
-                                and fix any issues. We optimize the website for speed,
-                                performance, and search engines. Once everything is perfect,
-                                we launch the website and provide ongoing support.
-                            </p>
-                        </div>
-                    </div>
+                    <ServiceSection />
                 </section>
             </main>
         </div>
