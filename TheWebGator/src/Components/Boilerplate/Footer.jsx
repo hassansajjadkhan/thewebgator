@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'; // Import Bootstrap Icons
-import { ReactSocialMediaIcons } from 'react-social-media-icons';
 import './Footer.css';
 import logo from '../../assets/logo.png';
 
@@ -36,7 +35,7 @@ const Footer = () => {
                     <div className="col-md-2 mb-3">
                         <h3>Social</h3>
                         <ul className="list-unstyled">
-                            <li className='mb-2 twitter'><a href="#!" className='text-white text-decoration-none'><i className="bi bi-twitter me-1"></i> Twitter</a></li>
+                            <li className='mb-2 twitter'><a href="#!" className='text-white text-decoration-none'><i className='bi bi-twitter me-1' /> Twitter</a></li>
                             <li className='mb-2 facebook'><a href="#!" className='text-white text-decoration-none'><i className="bi bi-facebook me-1"></i> Facebook</a></li>
                             <li className='mb-2 instagram'><a href="#!" className='text-white text-decoration-none'><i className="bi bi-instagram me-1"></i> Instagram</a></li>
                         </ul>
