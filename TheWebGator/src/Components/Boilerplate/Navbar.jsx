@@ -31,11 +31,15 @@ export default function Navbar() {
                                 {item === 'Services' && (
                                     <Link className='nav-link' to='/cdn/twg/TheWebGator/services'>{item}</Link>
                                 )}
+                                {item === 'Contact Us' && (
+                                    <Link className='nav-link' to={'/cdn/twg/TheWebGator/contactus'}>{item}</Link>
+                                )}
                                 {item === 'Home' ? (
                                     <Link className='nav-link' to='/cdn/twg/TheWebGator/'>{item}</Link>
                                 ) : (
-                                    item !== 'Services' && <a className='nav-link' href='#'>{item}</a>
+                                    item !== 'Services' && item !== 'Contact Us' && <a className='nav-link' href='#'>{item}</a>
                                 )}
+
                             </li>
                         );
                     })}
