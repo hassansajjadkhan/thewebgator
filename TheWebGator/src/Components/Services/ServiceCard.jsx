@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ServiceCard({ number, title, description }) {
     return (
-        <div className='col-md-4 me-4' id='service-card'>
+        <div className='col-md-2 me-4' id='service-card'>
             <div className='service-number mb-2'>
                 <span>{number}</span>
             </div>
