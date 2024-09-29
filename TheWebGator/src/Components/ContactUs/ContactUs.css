@@ -49,3 +49,15 @@
 #contact-form textarea:focus {
     outline: none;
 }
+
+#contact-form button {
+    font-size: 1.34rem;
+    background-color: #3BAF4A;
+    width: 130px;
+}
+
+#contact-info {}
+
+#contact-opt {
+    color: #B8B8B8;
+}

@@ -25,8 +25,19 @@ export default function ContactUs() {
                                 <div className='mt-2'>
                                     <textarea name='message' rows={5} placeholder='Type your message...'></textarea>
                                 </div>
-                                <button className='btn btn-success'>Submit</button>
+                                <button className='btn btn-success mt-3'>Submit</button>
                             </form>
+                        </div>
+                        <div className='col-4 ms-5 d-flex flex-column justify-content-center'>
+                            <div className='text-white h4'>
+                                Other Contact Options
+                            </div>
+                            <div id='contact-opt'>
+                                +923233937972
+                            </div>
+                            <div id='contact-opt'>
+                                hskDon69420@hotmail.com
+                            </div>
                         </div>
                     </div>
                 </section>
