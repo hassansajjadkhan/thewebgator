@@ -14,7 +14,7 @@ export default function Services() {
             <main className='home container'>
                 <section className='section' id='services-section1'>
                     <div className='row'>
-                        <div className='col-6 d-flex flex-column justify-content-center text-white'>
+                        <div className='col-6 d-flex flex-column justify-content-center'>
                             <div className='text-white mb-3' id='service-heading'>
                                 Creative Web Design
                             </div>
