@@ -25,6 +25,7 @@ export default function ContactUs() {
                                 <div className='mt-2'>
                                     <textarea name='message' rows={5} placeholder='Type your message...'></textarea>
                                 </div>
+                                <button className='btn btn-success'>Submit</button>
                             </form>
                         </div>
                     </div>
