@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Boilerplate/Navbar'
+import Footer from '../Boilerplate/Footer'
 import './ContactUs.css'
 
 export default function ContactUs() {
@@ -41,6 +42,7 @@ export default function ContactUs() {
                         </div>
                     </div>
                 </section>
+                <Footer />
             </main>
         </div>
     )
