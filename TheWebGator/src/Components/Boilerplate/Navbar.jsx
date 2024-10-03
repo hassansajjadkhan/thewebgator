@@ -32,14 +32,17 @@ export default function Navbar() {
                                     <Link className='nav-link' to='/cdn/twg/TheWebGator/services'>{item}</Link>
                                 )}
                                 {item === 'Contact Us' && (
-                                    <Link className='nav-link' to={'/cdn/twg/TheWebGator/contactus'}>{item}</Link>
+                                    <Link className='nav-link' to='/cdn/twg/TheWebGator/contactus'>{item}</Link>
                                 )}
-                                {item === 'Home' ? (
+                                {item === 'Home' && (
                                     <Link className='nav-link' to='/cdn/twg/TheWebGator/'>{item}</Link>
-                                ) : (
-                                    item !== 'Services' && item !== 'Contact Us' && <a className='nav-link' href='#'>{item}</a>
                                 )}
-
+                                {item === 'About' && (
+                                    <Link className='nav-link' to='/cdn/twg/TheWebGator/about'>{item}</Link>
+                                )}
+                                {item !== 'Services' && item !== 'Contact Us' && item !== 'Home' && item !== 'About' && (
+                                    <a className='nav-link' href='#'>{item}</a>
+                                )}
                             </li>
                         );
                     })}
